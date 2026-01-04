@@ -23,9 +23,44 @@ This project is especially useful for long-distance drivers, transport companies
 
 ---
 
-## Installation  
+## Project Structure
 
-### 1. Clone the Repository  
+```
+DriverDrowsinessSystem/
+│
+├── models/
+│   └── shape_predictor_68_face_landmarks.dat   # Pre-trained ML model
+│
+├── Drowsiness_Detection.py    # Main Python script
+├── music.wav                 # Alert sound file
+├── requirements.txt          # Python dependencies
+└── README.md                 # Documentation
+```
+
+## Getting Started
+
+Follow these steps to run the project locally:
+
+### 1️⃣ Clone the Repository
+
 ```bash
-git clone https://github.com/<your-username>/Driver-Drowsiness-Detection.git
+git clone https://github.com/your-username/DriverDrowsinessSystem.git
+cd DriverDrowsinessSystem
+```
+
+### 2️⃣ Install Requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3️⃣ Run the Program
+
+```bash
+python Drowsiness_Detection.py
+
+```
+
+
+
 
